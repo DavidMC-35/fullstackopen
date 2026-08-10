@@ -24,7 +24,7 @@ const App = () => {
     newVotes[selected] += 1
     setVotes(newVotes)
   }
-
+  
   const maxVotes = Math.max(...votes)
   const mostVoted = votes.indexOf(maxVotes)
 
